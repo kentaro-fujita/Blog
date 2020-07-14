@@ -1,0 +1,4 @@
+baseURL = "http://blog.wisteken.com/"
+languageCode = "ja"
+title = "Blog"
+theme = "ananke"
