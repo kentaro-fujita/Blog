@@ -4,6 +4,7 @@ title = "Wisteken Blog"
 theme = "ananke"
 
 [params]
+katex = true
 commentoEnable = true
 mainSections = ["posts"]
 
