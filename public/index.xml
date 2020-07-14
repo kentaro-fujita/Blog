@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog</title>
+    <title>Wisteken Blog</title>
     <link>http://blog.wisteken.com/</link>
-    <description>Recent content on Blog</description>
+    <description>Recent content on Wisteken Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 14 Jul 2020 16:13:29 +0900</lastBuildDate>
@@ -17,9 +17,7 @@
       <pubDate>Tue, 14 Jul 2020 16:13:29 +0900</pubDate>
       
       <guid>http://blog.wisteken.com/posts/my-first-post/</guid>
-      <description>Hello World!!
-こんにちは!!
-import sys sys.setrecursionlimit(10 ** 9) </description>
+      <description>test title  test  test    test import sys sys.setrecursionlimit(10 ** 9) $ echo &amp;#34;hello hugo!&amp;#34; $$ y = x^2 $$</description>
     </item>
     
   </channel>

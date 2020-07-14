@@ -1,4 +1,19 @@
 baseURL = "http://blog.wisteken.com/"
 languageCode = "ja"
-title = "Blog"
+title = "Wisteken Blog"
 theme = "ananke"
+
+[params]
+commentoEnable = true
+mainSections = ["posts"]
+
+[menu]
+[[menu.main]]
+identifier = "about"
+name = "about"
+url = "https://wisteken.com"
+
+[[menu.main]]
+identifier = "posts"
+name = "posts"
+url = "/posts/"
