@@ -21,6 +21,15 @@ sys.setrecursionlimit(10 ** 9)
 ```shell
 $ echo "hello hugo!"
 ```
+
+{{< highlight python "" >}}
+def main():
+    print("hello, world!")
+
+if __name__ == "__main__":
+    main()
+{{< /highlight >}}
+
 $$
 y = x^2
 $$

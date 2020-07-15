@@ -7,6 +7,10 @@ theme = "ananke"
 commentoEnable = true
 mainSections = ["posts"]
 
+[markup]
+    [markup.highlight]
+        style = "dracula"
+
 [menu]
 [[menu.main]]
 identifier = "about"
