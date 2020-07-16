@@ -2,22 +2,26 @@ baseURL = "http://blog.wisteken.com/"
 languageCode = "ja"
 title = "Wisteken Blog"
 theme = "ananke"
+hasCJKLanguage = true
+pygmentsUserClasses = true
+timeout = 60000
 
 [params]
-commentoEnable = true
+descriptions = "機械学習や競技プログラミングなどのテーマをお届けします。"
 mainSections = ["posts"]
+custom_css = ["css/custom.css"]
 
 [markup]
-    [markup.highlight]
-        style = "dracula"
+  [markup.highlight]
+    style = "dracula"
 
 [menu]
-[[menu.main]]
-identifier = "about"
-name = "about"
-url = "https://wisteken.com"
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "https://wisteken.com"
 
-[[menu.main]]
-identifier = "posts"
-name = "posts"
-url = "/posts/"
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    url = "/posts/"

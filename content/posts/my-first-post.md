@@ -1,5 +1,5 @@
 ---
-title: "My First Post"
+title: "初投稿"
 date: 2020-07-14T16:13:29+09:00
 draft: false
 katex: true
@@ -7,22 +7,25 @@ tags: [example, test]
 categories: [test]
 ---
 
-# test title
+# 見出し1
 
-* test
-    * test
+* リスト1
+    * リスト2
 
-## test
+## 見出し2
+
+### 見出し3
 
 ```python
 import sys
 sys.setrecursionlimit(10 ** 9)
 ```
+
 ```shell
 $ echo "hello hugo!"
 ```
 
-{{< highlight python "" >}}
+{{< highlight python >}}
 def main():
     print("hello, world!")
 
@@ -31,5 +34,5 @@ if __name__ == "__main__":
 {{< /highlight >}}
 
 $$
-y = x^2
+    y = x^2
 $$
