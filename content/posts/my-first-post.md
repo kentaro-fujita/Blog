@@ -1,7 +1,7 @@
 ---
 title: "初投稿"
 date: 2020-07-14T16:13:29+09:00
-draft: false
+draft: true
 katex: true
 tags: [example, test]
 categories: [test]
